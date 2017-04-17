@@ -77,7 +77,7 @@ table {
   height: 2607px;
   margin-top: 22px; }
 
-.content_realty {
+.content_metrovka {
   height: 1163px; }
 
 .realty_search {
@@ -165,6 +165,8 @@ table {
   width: 95%;
   background-color: #30AE63;
   color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-size: 14px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1299,6 +1301,52 @@ table {
   -webkit-border-radius: 0;
           border-radius: 0;
   color: #FFFFFF; }
+
+.radio_label {
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  border-width: 10px;
+  display: inline-block;
+  color: white;
+  padding-left: 3px;
+  cursor: pointer;
+  border-color: white;
+  align-items: center;
+}
+
+.radio_span {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+.radio_border {
+  border: 2px solid #fff;
+}
+
+.radio_border:hover {
+   background-color: #fff;
+   color: black;
+   transition: background 700ms;
+}
+
+.radio_border:checked {
+  background-color: #fff;
+  color: black;
+}
+
+input[type=radio] {
+  display: none;
+}
+
 
 .select__header {
   border: 2px solid #dfe3e6;
