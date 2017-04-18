@@ -106,4 +106,25 @@
 	align-self: flex-start;
 }
 
+.apartments {
+	overflow-x: scroll; 
 }
+
+.apartment {
+	padding-right: 10px;
+}
+
+/*.footer {
+	height: 1111px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+} */
+
+.content__title_best{
+	font-size: 1.25em;
+	
+}
+
+}
+
