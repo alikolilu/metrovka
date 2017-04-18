@@ -121,10 +121,11 @@
 	align-items: center;
 } */
 
-.content__title_best{
-	font-size: 1.25em;
-	
+
+.metrovka__news {
+	display: block;
 }
+
 
 }
 
