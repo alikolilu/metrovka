@@ -118,7 +118,7 @@ table {
   z-index: 1; 
 }
 
-  .realty_search_content {
+.realty_search_content {
     height: 216px;
     width: 327px;
     margin-right: 10px;
@@ -142,13 +142,14 @@ table {
             justify-content: flex-start; 
 }
 
-    .realty_search_content_title {
+.realty_search_content_title {
       height: 60px;
       font-size: 1.5em;
       color: #152935;
       font-family: "Open Sans"; 
 }
-    .realty_search_content-top {
+
+.realty_search_content-top {
       height: 140px;
       width: 100%;
       display: -webkit-box;
@@ -162,7 +163,7 @@ table {
               flex-direction: column; 
 }
 
-    .realty_search_content-menu {
+.realty_search_content-menu {
       width: 100%;
       display: -webkit-box;
       display: -webkit-flex;
@@ -298,7 +299,7 @@ table {
   width: 100%; 
 }
 
-  .content__realty__offers_best, .content__realty__offers_last {
+.content__realty__offers_best, .content__realty__offers_last {
     width: 100%;
     margin-top: 22px;
     display: -webkit-box;
@@ -443,7 +444,7 @@ table {
     height: 135px; 
 }
 
-    .apartment__logo_ovals {
+.apartment__logo_ovals {
       position: absolute;
       display: -webkit-box;
       display: -webkit-flex;
@@ -464,7 +465,7 @@ table {
       height: 19.5px; 
   }
 
-    .apartment__logo_oval {
+.apartment__logo_oval {
       width: 3.9px;
       height: 3.96px;
       -webkit-border-radius: 50px;
@@ -490,7 +491,7 @@ table {
   height: 73px; 
 }
 
-  .apartment__info_metro {
+.apartment__info_metro {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -507,7 +508,7 @@ table {
     height: 17px; 
   }
 
-  .apartment__info__numbers {
+.apartment__info__numbers {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -525,13 +526,13 @@ table {
     height: 44px;
    }
 
-    .apartment__info__numbers_area {
+.apartment__info__numbers_area {
       color: #8C9BA5;
       font-family: "Open Sans";
       font-size: 0.750em; 
     }
 
-    .apartment__info__numbers_price {
+.apartment__info__numbers_price {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -549,7 +550,7 @@ table {
       height: 1.500em; 
     }
 
-    .apartment__info__numbers__price_suma {
+.apartment__info__numbers__price_suma {
       font-family: "Open Sans";
       color: #152935;
       font-size: 1em; 
@@ -652,17 +653,17 @@ table {
   overflow: hidden; 
 }
 
-  .telegram__header_title, .telegram__header_text {
+.telegram__header_title, .telegram__header_text {
     font-family: "Open Sans";
     color: #152935;
     overflow: inherit; 
   }
 
-  .telegram__header_title {
+.telegram__header_title {
     font-size: 24px;
      }
 
-  .telegram__header_text {
+.telegram__header_text {
     font-size: 0.875em;
     line-height: 20px;
     text-align: center; 
@@ -685,7 +686,7 @@ table {
           align-items: center; 
   }
 
-  .telegram__content_picture {
+.telegram__content_picture {
     width: 49.543%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -697,7 +698,7 @@ table {
             justify-content: center;
      }
 
-  .telegram__content__info {
+.telegram__content__info {
     width: 48.930%;
     height: 447.55px;
     display: -webkit-box;
@@ -715,7 +716,7 @@ table {
     background-color: #FFFFFF; 
   }
 
-    .telegram__content__info_join {
+.telegram__content__info_join {
       width: 89.888%;
       background-color: #30AE63;
       color: #FFFFFF;
@@ -737,15 +738,15 @@ table {
               border-radius: 3px; 
       }
 
-    .telegram__content__info_join:hover {
+.telegram__content__info_join:hover {
       background-color: #50DB88;
       color: #FFFFFF;
       border: 1px solid #DFE3E6;
       -webkit-box-sizing: border-box;
               box-sizing: border-box; 
-    }
+}
 
-    .telegram__content__info_inner {
+.telegram__content__info_inner {
       width: 81.750%;
       height: 342px;
       display: -webkit-box;
@@ -765,9 +766,9 @@ table {
       -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
               justify-content: space-between; 
-      }
+}
 
-    .telegram__content__info__title {
+.telegram__content__info__title {
       width: 87.640%;
       display: -webkit-box;
       display: -webkit-flex;
@@ -781,15 +782,15 @@ table {
       -webkit-justify-content: flex-start;
           -ms-flex-pack: start;
               justify-content: flex-start; 
-        }
+}
 
       .telegram__content__info__title_text {
         font-family: "Open Sans";
         font-size: 1.5em;
         margin-left: 20px; 
-      }
+}
 
-    .telegram__content__info__text {
+.telegram__content__info__text {
       width: 100%;
       height: 176px;
       display: -webkit-box;
@@ -805,19 +806,19 @@ table {
       -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
               justify-content: space-between; 
-      }
+}
 
-      .telegram__content__info__text_wrapper {
+.telegram__content__info__text_wrapper {
         width: 100%;
         height: 32px; 
-      }
+}
 
-      .telegram__content__info__text_title {
+.telegram__content__info__text_title {
         font-size: 24px;
         font-family: "Open Sans"; 
-      }
+}
 
-      .telegram__content__info__text_list {
+.telegram__content__info__text_list {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -839,18 +840,18 @@ table {
         width: 100%;
         counter-reset: section;
         margin-left: 4px;
-         }
+}
 
-        .telegram__content__info__text_list p::before {
+.telegram__content__info__text_list p::before {
           counter-increment: section;
           content: counter(section) ". ";
-           }
+}
 
-        .telegram__content__info__text_list p {
+.telegram__content__info__text_list p {
           font-family: "Open Sans";
           font-size: 0.875em;
           line-height: 20px;
-           }
+}
 
 .content__switcher {
   display: -webkit-box;
@@ -861,7 +862,7 @@ table {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between; 
-  }
+}
 
 .telegram__header_menu {
   display: -webkit-box;
@@ -879,7 +880,7 @@ table {
 .nav_link-telegram {
   font-family: "Open Sans";
   font-size: 14px;
-   }
+}
 
 .content__switchers {
   height: 14px;
@@ -911,7 +912,7 @@ table {
     padding-left: 15px;
      }
 
-  .content__switchers label:before {
+.content__switchers label:before {
     content: "";
     display: inline-block;
     width: 14px;
@@ -922,9 +923,9 @@ table {
     background-color: #30AE63;
     -webkit-border-radius: 50%;
             border-radius: 50%; 
-    }
+}
 
-  .content__switchers input[type=radio]:checked + label:before {
+.content__switchers input[type=radio]:checked + label:before {
     position: absolute;
     content: "\2022";
     color: #f3f3f3;
@@ -958,7 +959,7 @@ table {
   margin-top: 60px;
    }
 
-  .content__metrovka_wrapper {
+.content__metrovka_wrapper {
     width: 95.280%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -979,7 +980,7 @@ table {
             align-items: center;
     padding-top: 20px;
     height: 418px; 
-  }
+}
 
 .metrovka__news {
   width: 100%;
@@ -995,9 +996,9 @@ table {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-   }
+ }
 
-  .metrovka__news__item {
+.metrovka__news__item {
     width: 32.075%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1012,16 +1013,16 @@ table {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column; 
-    }
+}
 
-    .metrovka__news__item_footer {
+.metrovka__news__item_footer {
       color: #8C9BA5;
       font-family: "Open Sans";
       font-size: 0.750em;
       line-height: 16px; 
-    }
+}
 
-    .metrovka__news__item__text {
+.metrovka__news__item__text {
       width: 100%;
       height: 68px;
       display: -webkit-box;
@@ -1037,22 +1038,22 @@ table {
       -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
               justify-content: space-between; 
-      }
+}
 
-      .metrovka__news__item__text_title {
+.metrovka__news__item__text_title {
         line-height: 16px;
         font-size: 0.688em;
         font-family: "Open Sans";
         text-transform: uppercase;
-         }
+}
 
-      .metrovka__news__item__text_content {
+.metrovka__news__item__text_content {
         width: 100%;
         height: 48px;
         overflow: hidden;
-         }
+}
 
-        .metrovka__news__item__text_content p {
+.metrovka__news__item__text_content p {
           line-height: 24px;
           font-size: 16px;
           overflow: hidden;
