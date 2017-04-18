@@ -34,6 +34,11 @@ a {
   transition: background 500ms;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -85,9 +90,10 @@ table {
 }
 
 .content {
-  width: 890px;
+  max-width: 890px;
   height: 2607px;
   margin-top: 22px; 
+  width: 78.8308%;
 }
 
 .content_metrovka {
@@ -137,7 +143,7 @@ table {
 
     .realty_search_content_title {
       height: 60px;
-      font-size: 24px;
+      font-size: 1.5em;
       color: #152935;
       font-family: "Open Sans"; 
 }
@@ -173,7 +179,7 @@ table {
   color: #152935;
   margin-right: 40px;
   font-family: "Open Sans";
-  font-size: 14px; 
+  font-size: 0.875em; 
 }
 
 .realty_search_content_show:hover {
@@ -191,7 +197,7 @@ table {
   background-color: #30AE63;
   color: #FFFFFF;
   font-family: 'Open Sans';
-  font-size: 14px;
+  font-size: 0.875emx;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -210,7 +216,7 @@ table {
 
 .realty_search_content_select {
   width: 100%;
-  margin-top: 13px;
+  margin-top: 0.813em;
   height: 20px;
   cursor: pointer; 
 }
@@ -238,14 +244,14 @@ table {
   width: 8px;
   -webkit-border-radius: 50%;
           border-radius: 50%;
-  left: 16px;
+  left: 1em;
   top: 40%; 
 }
 
 .selectVisibleText {
   position: absolute;
   font-family: "Open Sans";
-  font-size: 12px;
+  font-size: 0.750em;
   left: 35px;
   top: 43%; 
 }
@@ -382,7 +388,7 @@ table {
 }
 
 .content__title_best {
-  font-size: 24px;
+  font-size: 1.5em;
   color: #152935; 
 }
 
@@ -409,7 +415,7 @@ table {
   .offers__best_footer a {
     color: #152935;
     font-family: "Open Sans";
-    font-size: 16px; 
+    font-size: 1em; 
 }
 
 .apartment {
@@ -521,7 +527,7 @@ table {
     .apartment__info__numbers_area {
       color: #8C9BA5;
       font-family: "Open Sans";
-      font-size: 12px; 
+      font-size: 0.750em; 
     }
 
     .apartment__info__numbers_price {
@@ -539,23 +545,23 @@ table {
           -ms-flex-pack: justify;
               justify-content: space-between;
       width: 115px;
-      height: 24px; 
+      height: 1.500em; 
     }
 
     .apartment__info__numbers__price_suma {
       font-family: "Open Sans";
       color: #152935;
-      font-size: 16px; 
+      font-size: 1em; 
     }
 
 .metro-title, .metro-title_last {
   font-family: "Open Sans";
-  font-size: 12px;
+  font-size: 0.750em
   color: #152935;
  }
 
 .metro-title {
-  margin-left: 10px; 
+  margin-left: 0.625em; 
 }
 
   .metro-title_last {
@@ -656,7 +662,7 @@ table {
      }
 
   .telegram__header_text {
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 20px;
     text-align: center; 
   }
@@ -725,7 +731,7 @@ table {
           -ms-flex-align: center;
               align-items: center;
       font-family: "Open Sans";
-      font-size: 14px;
+      font-size: 0.875em;
       -webkit-border-radius: 3px;
               border-radius: 3px; 
       }
@@ -778,7 +784,7 @@ table {
 
       .telegram__content__info__title_text {
         font-family: "Open Sans";
-        font-size: 24px;
+        font-size: 1.5em;
         margin-left: 20px; 
       }
 
@@ -841,7 +847,7 @@ table {
 
         .telegram__content__info__text_list p {
           font-family: "Open Sans";
-          font-size: 14px;
+          font-size: 0.875em;
           line-height: 20px;
            }
 
@@ -921,7 +927,7 @@ table {
     position: absolute;
     content: "\2022";
     color: #f3f3f3;
-    font-size: 40px;
+    font-size: 2.5px;
     text-align: center;
     line-height: 14px;
     border: 1px solid #30AE63; 
@@ -1010,7 +1016,7 @@ table {
     .metrovka__news__item_footer {
       color: #8C9BA5;
       font-family: "Open Sans";
-      font-size: 12px;
+      font-size: 0.750em;
       line-height: 16px; 
     }
 
@@ -1034,7 +1040,7 @@ table {
 
       .metrovka__news__item__text_title {
         line-height: 16px;
-        font-size: 11px;
+        font-size: 0.688em;
         font-family: "Open Sans";
         text-transform: uppercase;
          }
@@ -1115,7 +1121,7 @@ table {
         .footer__content__item_title p {
           color: #152935;
           font-family: "Open Sans";
-          font-size: 16px; 
+          font-size: 1em; 
         }
 
       .footer__content__item_networks {
@@ -1187,7 +1193,7 @@ table {
           }
 
         .footer__content__item_navigation_item {
-          font-size: 13px;
+          font-size: 0.813em;
           line-height: 20px;
           font-family: "Open Sans";
           color: #152935; 
@@ -1214,7 +1220,7 @@ table {
   height: 301px;
   width: 100%;
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 0.875em;
   font-family: "Open Sans";
   display: -webkit-box;
   display: -webkit-flex;
@@ -1251,7 +1257,7 @@ table {
   display: flex;
   height: 25px;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 0.875em;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
    }
@@ -1361,7 +1367,7 @@ table {
   }
 
 .content__title {
-  font-size: 32px;
+  font-size: 2em;
   letter-spacing: -1px;
   line-height: 38.92px; 
 }
@@ -1486,7 +1492,7 @@ table {
 }
 
 .radio_label {
-  font-size: 14px;
+  font-size: 0.875em;
   width: 40px;
   height: 40px;
   -moz-border-radius: 20px;
@@ -1548,7 +1554,7 @@ input[type=radio] {
   }
 
 .header_wrapper {
-  width: 78.830%;
+  max-width: 78.830%;
   height: 245px;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
@@ -1591,7 +1597,7 @@ input[type=radio] {
 .selectVisibleText_header {
   position: absolute;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 0.875em;
   left: 15px;
   top: 12px;
   line-height: 18px;
@@ -1669,12 +1675,12 @@ input[type=radio] {
    }
 
   .leave__application_title {
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 32px; 
   }
 
   .leave__application_text {
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 20px; 
   }
 
@@ -1846,11 +1852,11 @@ input[type=radio] {
 }
 
 .city {
-  font-size: 11px; 
+  font-size: 0.688em; 
 }
 
 .street {
-  font-size: 13px; 
+  font-size: 0.813em;
 }
 
 .modal_menu {
@@ -1905,4 +1911,11 @@ input[type=radio] {
 
 @keyframes flipAround {
   1% { transform:rotateY(-180deg); }
+
+
+
+@media only screen and (max-width: 890px)
+header.scss:144
+.header_wrapper {
+    padding: 24px 1% 32px 4.5%;
 }
