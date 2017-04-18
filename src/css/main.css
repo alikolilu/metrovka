@@ -4,7 +4,8 @@ body {
 }
 
 .page {
-  width: 1129px;
+  max-width: 1129px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 15px;
   -webkit-box-sizing: border-box;
@@ -1911,11 +1912,3 @@ input[type=radio] {
 
 @keyframes flipAround {
   1% { transform:rotateY(-180deg); }
-
-
-
-@media only screen and (max-width: 890px)
-header.scss:144
-.header_wrapper {
-    padding: 24px 1% 32px 4.5%;
-}
