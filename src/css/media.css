@@ -92,5 +92,18 @@
   .choose__rooms {
   	padding: 10px 0px 0px 0px;
   }
+.iphone_tele {
+	display: none;
+}
+
+.realty_search {
+	display: flex;
+	flex-direction: column-reverse;
+	height: 484px;
+}
+
+.realty_search_img {
+	align-self: flex-start;
+}
 
 }
