@@ -1,0 +1,126 @@
+@import url('../../../fonts/stylesheet.css');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'open_sans', sans-serif; 
+}
+
+ a {
+	text-decoration: none;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.button{
+    display: inline-block;
+    text-align: center;
+    transition: background 500ms;
+    opacity: 0.9;
+ 
+}
+.primary_button, .secondary_button, .button_label {
+    font-size: 14px;
+}
+.green_button {
+    background: #30ae62;
+    color: white;
+    height: 40px;
+
+}
+
+.primary_button {
+    width: 131px;
+    border-radius: 2px;
+    padding-top: 10px;
+}
+
+.primary_button:hover, .small_button_primary:hover {
+    background: #50da88;
+}
+
+.primary_button:disabled, .small_button_primary:disabled {
+    background: #30ae62;
+}
+
+.button-white {
+    border-color: #2fae62;
+    color: #2fae62;
+    background: #fff;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+.secondary_button {
+    width: 103px;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 2px;
+}
+
+.secondary_button:hover, .small_secondary:hover {
+    color: #fff;
+    background: #30ae62;
+}
+
+.secondary_button:disabled, .small_secondary:disabled {
+    border-color: #2fae62;
+    background: #fff;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.button_label {
+    width: 148px;
+    padding: 12px 28px 0px 0px;
+    background-position-x: 85%;
+}
+
+.button_label, .small_primary {
+    background-image: url('../../img/small_icon_plus.png');
+    background-repeat: no-repeat; 
+    background-position-y: center;
+}
+
+.button_label:hover, .small_primary:hover {
+    background: #50da88;
+    background-image: url('../../img/small_icon_plus.png');
+    background-repeat: no-repeat; 
+    background-position-y: center;
+}
+
+.button_label:hover {
+    background-position-x: 85%;
+}
+
+.small_button_primary {
+    height: 32px;
+    width: 111px;
+    padding-top: 8px;
+}
+
+.small_button_primary, .small_secondary, .small_primary {
+    font-size: 12px;
+}
+
+.small_secondary {
+    height: 32px;
+    width: 128px;
+    padding-top: 7px;
+}
+
+.small_primary {
+    height: 32px;
+    width: 143px;
+    background-position-x: 90%;
+    padding: 8px 40px 0px 0px;
+}
+
+.small_primary:hover {
+    background-position-x: 90%;
+}

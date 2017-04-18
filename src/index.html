@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/media.scss"> -->
+   <link rel="stylesheet" type="text/css" href="css/media.css"> 
 </head>
 <body>
     <div class="page">
@@ -18,30 +18,31 @@
                         <a class="header__menu_icon" href="#"><img src="images/logo.png" alt="Icon"></a>
                         <div class="header__navigation">
                             <a class="nav_link underline-white animation" href="#">Аренда</a>
-                            <a class="nav_link underline-white animation" href="#">Продажа</a>
-                            <a class="nav_link underline-white animation" href="#">Посуточно</a>
-                            <a class="nav_link underline-white animation" href="#">
+                            <a class="nav_link underline-white animation nav_act" href="#">Продажа</a>
+                            <a class="nav_link underline-white animation nav_act" href="#">Посуточно</a>
+                            <a class="nav_link underline-white animation nav_act" href="#">
                                 <div class="header_ovals" >
                                     <div class="header_oval"></div>
                                     <div class="header_oval"></div>
                                     <div class="header_oval"></div>
                                 </div>
-                                <div class="header_text animation">
+                                <div class="header_text animation nav_act">
                                     <p>Еще</p>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="nav_register">
-                            <a class="shareAds">
+                            <a class="shareAds nav_act">
                                 <img class="shareAds_img" src="./images/plus.png" alt="+">
                                 <p class="shareAds_text">Pазместить обьявление</p>
                             </a>
-                        <a class="button enter animation">Войти</a>
+                        <a class="button enter animation nav_act">Войти</a>
                     </div>
                 </div>
                 <div class="header_content">
-                    <p class="content__title">Поиск недвижимости в Украине</p>
+                    <div class="header_title">
+                    <p class="content__title header_titleMain">Поиск недвижимости в Украине</p></div>
                     <div class="content__search">
                         <div class="choose__city">
                             <p class="choose__city_title">Выберите город</p>
@@ -77,7 +78,7 @@
                             </ul>
                         </div>
                         <div class="choose__rooms">
-                            <p class="choose-rooms-title">Кол-во комнат</p>
+                            <p class="choose-rooms-title header_choose">Кол-во комнат</p>
                             <div class="choose__rooms_items">
                                <label class="radio_label">
                                <input type="radio" name="room1">
