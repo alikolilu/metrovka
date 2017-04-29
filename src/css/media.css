@@ -129,3 +129,25 @@
 
 }
 
+@media screen and (max-width: 1120px) {
+  .header > * {
+    width: calc( 100% - 32px); } 
+  }
+
+@media screen and (max-width: 860px) {
+    .realty_search_content_title, .content__title_best, .content__title_best, .telegram__header_title, .telegram__content__info__title_text, .telegram__content__info__text_title, .blogs__title {
+      font-size: 1.25rem; } }
+
+@media screen and (max-width: 1120px) {
+  section {
+    width: 100%; } }
+
+/*
+
+@media screen and (max-width: 1120px) {
+  .realty_search {
+    padding: 20px 16px; }
+  .wrapper {
+    padding: 22px 0 18px 0; }
+  .blogs__wrap {
+    padding: 20px 0 0; } } */
