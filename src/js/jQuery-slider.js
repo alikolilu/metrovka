@@ -17,11 +17,11 @@ $.fn.slider = function(){
     var elemWidth = 202;
     var slides = $('.slide');
     var numberofElem = length.slides;
-    //$('#slidesContainer').css('overflow', 'hidden');
+    
       $('#slidesContainer').css('left','0px');
       $('#slidesContainer').css('position','relative');
       $('#slidesContainer').css('width','elemWidth*numberofElem');
-   // $('#slidesContainer>div:last-child').prependTo('#slidesContainer');
+  
 
     slidesVisible = elem.width/elemWidth>>0;
       $('<span class ="control_next">Next</span>').appendTo('#slidesShow');
