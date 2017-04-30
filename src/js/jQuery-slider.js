@@ -1,35 +1,35 @@
 (function( $ ) {
   $.fn.mySlider = function() {
-   var metrovkaSlider = {};
 
-      metrovkaSlider.infinet = true;
-      metrovkaSlider.index = 0;
-      metrovkaSlider.slidesVisible = 1;
-      metrovkaSlider.slidesToScroll = 1;
-      metrovkaSlider.arrows = true;
-      metrovkaSlider.swipeAble = true;
-      metrovkaSlider.pagination = true;
-      metrovkaSlider.autoplay = true;
-      metrovkaSlider.autoplaySpeed = 1000;
+    var metrovkaSlider = {
+      infinet: true,
+      index: 0,
+      slidesVisible: 1,
+      slidesToScroll: 1;
+      arrows: true,
+      swipeAble: true,
+      pagination: true,
+      autoplay: true,
+      autoplaySpeed: 1000
+  };
   
     var settings = $.extend({}, metrovkaSlider, settings);
-    var elem = this;
-    var elemWidth = 202;
+    var part = this;
+    var partWidth = 202;
     var slides = $('.slide');
     var numberofElem = length.slides;
-    //$('#slidesContainer').css('overflow', 'hidden');
       $('#slidesContainer').css('left','0px');
       $('#slidesContainer').css('position','relative');
-      $('#slidesContainer').css('width','elemWidth*numberofElem');
-   // $('#slidesContainer>div:last-child').prependTo('#slidesContainer');
+      $('#slidesContainer').css('width','partWidth*numberofElem');
+   
 
-    slidesVisible = elem.width/elemWidth>>0;
+    slidesVisible = part.width/partWidth>>0;
       $('<span class ="control_next">Next</span>').appendTo('#slidesShow');
       $('<span class = "control_prev">Prev</span>').prependTo('#slidesShow');
      
  $('.control_next').click(function(){
               $('#slidesContainer').animate({
-                left: -elemWidth
+                left: -partWidth
                }, 1000, function(){
                  $('#slidesContainer>div:first-child').appendTo('#slidesContainer');
                  settings.index != 0
@@ -39,7 +39,7 @@
              }); 
     $('.control_prev').click(function(){
                 $('#slidesContainer').animate({
-                left: +elemWidth    
+                left: +partWidth    
                }, 1000, function(){
               $('#slidesContainer>div:last-child').prependTo('#slidesContainer');
                  settings.index != numberofElem-1
@@ -55,10 +55,10 @@ $( window ).on( "swipe", function( event ) {
   $('slidesContainer').animate({
     left: +swipestart-swipeend
   }, 1000, function(){
-    for(var i = 1; i<=math.abs((swipestart-swipeend)/elemWidth >>0); i++){
+    for(var i = 1; i<=math.abs((swipestart-swipeend)/partWidth >>0); i++){
       if ((swipestart-swipeend)<0){
         $('#slidesContainer').animate({
-                left: -elemWidth
+                left: -partWidth
                }, 1000, function(){
                  settings.index != 0
                ? settings.index-1 : settings.index = numberofElem-1;
@@ -67,7 +67,7 @@ $( window ).on( "swipe", function( event ) {
                    })
       }else{
         $('#slidesContainer').animate({
-                left: +elemWidth
+                left: +partWidth
                }, 1000, function(){
                  settings.index != numberofElem-1
                ? settings.index+1 : settings.index = 0;
@@ -84,7 +84,7 @@ $( window ).on( "swipe", function( event ) {
 $('#slidesContainer').mouseout(function(){
   setInterval(function () {
     $('#slidesContainer').animate({
-                left: -elemWidth
+                left: -partWidth
                }, 1000, function(){
                  settings.index != 1
                ? settings.index-1 : optionsindex = numberofElem;
@@ -94,4 +94,6 @@ $('#slidesContainer').mouseout(function(){
   }, settingss.autoplaySpeed);
 });
   };
+
 })(jQuery);
+
