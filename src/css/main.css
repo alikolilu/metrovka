@@ -297,14 +297,14 @@ color: black;
   border-bottom: 5px solid #30AE63; }
 
 .social__info-image {
-  background-image: url(../../images/icons.png);
+ /* background-image: url(../../images/icons.png); */
   background-position: 0px 0px;
   width: 62px;
   height: 62px;
   display: inline-block; }
 
 .menu-open__icon {
-  background: url(/../images/menu.png) no-repeat;
+  /*background: url(/../images/menu.png) no-repeat; */
   width: 22px;
   height: 11px;
   display: inline-block;
@@ -1333,7 +1333,7 @@ section {
   flex: 1 100%;
   margin: 28px 0 46px; }
   .footer__logo_icon {
-    background-image: url(../../images/icons.png);
+    /*background-image: url(../../images/icons.png); */
     background-position: -77px 0px;
     width: 51px;
     height: 47px;
